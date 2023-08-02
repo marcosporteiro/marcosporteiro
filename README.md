@@ -1,16 +1,29 @@
-### Hi there 👋
+### Welcome to my github
 
-<!--
-**marcosporteiro/marcosporteiro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
 
-Here are some ideas to get you started:
+import Countries
+import Technologies
+import Job
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class MyBiography:
+    def __init__(self):
+        self.name = 'Marcos'
+        self.lastName = 'Porteiro'
+        self.job = Job('Software Developer', 'IBM')
+        self.country = Countries.Uruguay
+        self.contact = 'https://marcosporteiro.github.io/me/'
+        self.skills = ['Python', 'Java', 'SQL', 'HTML', 'Jenkins', 'Openshift']
+        self.frameworks = ['Spring Boot', 'Angular', 'Flutter', 'Flask']
+
+    def eat(self):
+        self.program()
+
+    def sleep(self):
+        self.program()
+
+    def program(self):
+        # Do amazing stuffs
+        self.program()
+
+```
