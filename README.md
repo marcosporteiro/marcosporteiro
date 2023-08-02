@@ -1,5 +1,5 @@
 ### Welcome to my github
-
+#
 ```python
 
 import BestCountries
@@ -12,7 +12,7 @@ class MyBiography:
         self.job = Job('Software Developer', 'IBM')
         self.country = BestCountries.Uruguay
         self.contact = 'https://marcosporteiro.github.io/me/'
-        self.skills = ['Python', 'Java', 'SQL', 'HTML', 'Jenkins', 'Openshift']
+        self.someSkills = ['Python', 'Java', 'Golang', 'TypeScript', 'SQL', 'HTML', 'Jenkins', 'Openshift', 'Git']
         self.frameworks = ['Spring Boot', 'Angular', 'Flutter', 'Flask']
         self.energy = 100
 
