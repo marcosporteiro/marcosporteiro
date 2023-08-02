@@ -2,8 +2,7 @@
 
 ```python
 
-import Countries
-import Technologies
+import BestCountries
 import Job
 
 class MyBiography:
@@ -11,19 +10,20 @@ class MyBiography:
         self.name = 'Marcos'
         self.lastName = 'Porteiro'
         self.job = Job('Software Developer', 'IBM')
-        self.country = Countries.Uruguay
+        self.country = BestCountries.Uruguay
         self.contact = 'https://marcosporteiro.github.io/me/'
         self.skills = ['Python', 'Java', 'SQL', 'HTML', 'Jenkins', 'Openshift']
         self.frameworks = ['Spring Boot', 'Angular', 'Flutter', 'Flask']
-
-    def eat(self):
-        self.program()
-
-    def sleep(self):
-        self.program()
+        self.energy = 100
 
     def program(self):
-        # Do amazing stuffs
+        if self.energy < 10:
+            self.drinkCofee()
+        # Do amazing stuff
+        self.energy -= 1
         self.program()
+
+    def drinkCofee(self):
+        self.energy = 100
 
 ```
